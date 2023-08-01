@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+  />
+  <link rel="stylesheet" href="style.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+  <style>
+    .banner{
+      width: 100vw;
+      height: 40vh;
+      /* background-color: black; */
+      /* background-image: url(./image/Banner/product-details\ banner.webp); */
+
+    }
+    .banner img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar shadow p-3 mb-5 bg-body-tertiary fixed-top navbar-expand-lg bg-white py-2">
+      <div class="container-fluid text-dark mx-1 mx-md-5 px-2 px-md-5 ">
+     <div class="mx-auto">
+      <a class="navbar-brand me-5 me-md-5" href="#">
+        <img style="height: 50px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa1PKcr8w0qrV0dhh1FKQlabe9O9kWSGGV_w&usqp=CAU" alt="">
+      </a>
+      <button
+        class="navbar-toggler ms-5 px-5"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"><i class="bi bi-list"></i></span>
+      </button>
+     </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 me-auto">
+            <li class="nav-item me-3">
+              <a
+                class="nav-link active text-dark"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item me-3">
+              <a class="nav-link text-dark" href="Product.html">Product</a>
+            </li>
+            <!-- <li class="nav-item me-3">
+              <a class="nav-link text-dark" href="About.html">About</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="contact.html">Contact</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li> -->
+          </ul>
+          <ul class="navbar-nav mb-2 mb-lg-0 ms-5">
+            <li class="nav-item me-3 fs-4">
+              <a class="nav-link text-dark" href="#"
+                ><i class="bi bi-search"></i
+              ></a>
+            </li>
+            <li class="nav-item me-3 fs-4">
+              <a class="nav-link text-dark" href="#"
+                ><i class="bi bi-heart"></i
+              ></a>
+            </li>
+
+            <li class="nav-item fs-4">
+              <a class="nav-link text-dark" href="#"
+                ><i class="bi bi-cart3"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="w-100  overflow-hidden" >
+    <img class="img-fluid" src="./image/Banner/product-details banner.webp" alt="">
+</div>
+     
+    <section class="container  py-5">
+      <div class="row">
+        <div class="col-12 col-md-6 mb-5">
+          <h1>Get in touch</h1>
+          <p class="mb-4">Brand Tagline</p>
+          <p><strong>Address :  </strong>KOLUAKALAN, Govindpura Industrial Area, Bhopal, Madhya Pradesh 462023</p>
+          <p><strong>Phone :  </strong>6267184045</p>
+          <p><strong>Mail :  </strong>mail@gmail.com</p>
+
+          <form action="" class="pe-4">
+            
+            <input type="text" placeholder="Enter Your Name"  class="px-5 py-2 border-0 w-100 my-3">
+            <!-- <div class="row w-100 px-3 gap-md-5">
+              <input type="text" placeholder="Enter Your mail"  class="px-5 py-2 border-0 my-3 col-12 col-md-6">
+              <input type="text" placeholder="Enter Your  Number"  class=" px-5 py-2 my-3 border-0 col-12 col-md-5">
+            </div> -->
+            <!-- <input type="text" placeholder="Enter Your mail"  class="px-5 py-2 border-0 my-3 me-3 ">
+            <input type="text" placeholder="Enter Your  Number"  class="ms-2 px-5 py-2 my-3 border-0 "> -->
+            <input type="text" placeholder="Enter Your mail"  class="px-5 py-2 border-0 my-3  w-100 ">
+            <input type="text" placeholder="Enter Your  Number"  class=" px-5 py-2 my-3 border-0 w-100 ">
+            <textarea name="" id="" cols="20" rows="5" placeholder="Enter Your Message"  class="px-5 py-2 border-0 w-100 "></textarea>
+          </form>
+      </div>
+      <div class="col-12 col-md-6 px-3">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.103515781208!2d77.43938743492875!3d23.276833105568755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c694a2cd91bb9%3A0xf6cb2ff313740ca2!2sDEEP%20SHREE%20HOSPITAL%20MULTI%20SPECIALITY%20UNIT!5e0!3m2!1sen!2sin!4v1689790597691!5m2!1sen!2sin" width="100%" height="560" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      </div>
+       
+    </section>
+    <div id="footer" class="pt-5 pb-3 bg-dark mt-4">
+      <div class="row mx-5 py-3 px-md-5">
+        <div class="col-12 col-md-3">
+          <img style="width: 90px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSa1PKcr8w0qrV0dhh1FKQlabe9O9kWSGGV_w&usqp=CAU" alt="Brand Logo" />
+          <p class="mt-4"> Brand Tagline </p>
+        </div>
+        <div class="col-12 col-md-3 text-start">
+          <h3 class="mb-4">Privacy Policy</h3>
+          <p class=""><a href="#">Privacy Policy</a></p>
+
+          <p class=""><a href="#">Terms And Conditions</a></p>
+
+          <p><a href="#">Shipping Delivery Policy</a></p>
+
+          <p><a href="#">Refund Policy</a></p>
+        </div>
+        <div class="col-12 col-md-3 text-start">
+          <h3 class="mb-4">Support</h3>
+          <p><a href="contact.html">Contact Us</a></p>
+
+          <p><a href="#">Faqs</a></p>
+
+          <p><a href="#">About</a></p>
+          <p><a href="Product.html">Products</a></p>
+        </div>
+        <div class="col-12 col-md-3">
+          <h3 class="mb-4">Contact US</h3>
+          <p><i class="bi bi-geo-alt-fill me-2 fs-5"></i><a href="">KOLUAKALAN, Govindpura  462023</a></p>
+          <p>
+            <i class="bi bi-telephone-fill me-2 fs-5"></i>
+            <a href="tel:917440477473">7440477473</a>
+          </p>
+          <p>
+            <i class="bi bi-envelope-plus-fill me-2 fs-5"></i
+            ><a href="mailto:shivanichouksey1702@gmail.com">shivanichouksey1702@gmail.com</a>
+          </p>
+        </div>
+      </div>
+      <div class="row w-100 mt-5 text-center ">
+        <div class="col-12 col-md-6 mb-3 ">© 2023,Designed by Shivani Chouksey</div>
+        <div class="col-12 col-md-6"><img src="https://htmldemo.net/diana/diana/assets/img/icons/payment.webp" class="img-fluid" alt=""></div>
+      </div>
+    </div>
+    <button class="btn mb-5" id="btn"><i class="bi bi-arrow-up-circle text-white fs-3"></i></button>
+
+    <div class="row w-100 d-md-none fixed-bottom  bg-light">
+      <div class="col-4 text-center">
+        <a style="text-decoration: none;" class=" text-dark" href="index.html">
+          <i class="bi bi-house-door-fill icon"></i>
+          <p>Home</p>
+        </a>
+      </div>
+
+      <div class="col-4 text-center">
+        <a style="text-decoration: none;" class=" text-dark" href="Product.html">
+          <i class="ri-store-2-fill icon"></i>
+          <p>Products</p>
+        </a>
+
+      </div>
+      <!-- <div class="col-3 text-center">
+        <a style="text-decoration: none;" class=" text-dark" href="">
+          <i class="ri-shopping-cart-2-fill"></i>
+          <p>Cart</p>
+        </a>
+
+      </div> -->
+      <div class="col-4 text-center">
+        <a style="text-decoration: none;" class=" text-dark" href="contact.html"> <i
+            class="ri-contacts-book-2-fill icon"></i>
+          <p>Contact</p>
+        </a>
+      </div>
+    </div>
+    <!-- <section class="container">
+        <div class="row">
+          <div
+            class="col-6 col-md-3 d-flex px-5 lh-1 align-content-center justify-content-center"
+          >
+            <div><img class="me-3" src="./image//truck.webp" alt="" /></div>
+            <div>
+              <h5>Free Delivery</h5>
+              <p class="">Above 1000/-</p>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-3 d-flex px-5 lh-1 align-content-center justify-content-center"
+          >
+            <div>
+              <img
+                class="me-3"
+                src="https://img.icons8.com/?size=1x&id=24730&format=png"
+                alt=""
+              />
+            </div>
+            <div>
+              <h5>Quality Product</h5>
+              <p class="">Above 1000/-</p>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-3 d-flex px-5 lh-1 align-content-center justify-content-center"
+          >
+            <div>
+              <img
+                class="me-3"
+                src="https://img.icons8.com/?size=1x&id=2889&format=png"
+                alt=""
+              />
+            </div>
+            <div>
+              <h5>5 Days Return</h5>
+              <p class="">Above 1000/-</p>
+            </div>
+          </div>
+          <div
+            class="col-6 col-md-3 d-flex px-5 lh-1 align-content-center justify-content-center"
+          >
+            <div>
+              <img
+                style="margin-top: -17px"
+                class="me-3"
+                src="https://img.icons8.com/?size=1x&id=neBRkBaejCVJ&format=png"
+                alt=""
+              />
+            </div>
+            <div>
+              <h5>24 Support</h5>
+              <p class="">Above 1000/-</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    <div id="footer" class="pt-5 pb-3 bg-dark mt-4">
+        <div class="row mx-5 py-3 px-5">
+          <div class="col-12 col-md-3">
+            <img src="" alt="Brand Logo" />
+            <p class="mt-4">Tagline</p>
+          </div>
+          <div class="col-12 col-md-3 text-start">
+            <h3 class="mb-4">Privacy Policy</h3>
+            <p class=""><a href="">Privacy Policy</a></p>
+  
+            <p class=""><a href="">Terms And Conditions</a></p>
+  
+            <p><a href="">Shipping Delivery Policy</a></p>
+  
+            <p><a href="">Refund Policy</a></p>
+          </div>
+          <div class="col-12 col-md-3 text-start">
+            <h3 class="mb-4">Support</h3>
+            <p><a href="">Contact Us</a></p>
+  
+            <p><a href="">Faqs</a></p>
+  
+            <p><a href="">About</a></p>
+          </div>
+          <div class="col-12 col-md-3">
+            <h3 class="mb-4">Contact US</h3>
+            <p><i class="bi bi-geo-alt-fill me-2 fs-5"></i>bvhvbyhbvurebwuv3</p>
+            <p>
+              <i class="bi bi-telephone-fill me-2 fs-5"></i>
+              <a href="">7440477473</a>
+            </p>
+            <p>
+              <i class="bi bi-envelope-plus-fill me-2 fs-5"></i
+              ><a href="">bewhfefye@fbeh</a>
+            </p>
+          </div>
+        </div>
+        <div class="row w-100 mt-5 text-center ">
+          <div class="col-6 ">© 2023,Designed by Shivani Chouksey</div>
+          <div class="col-6"><img src="https://htmldemo.net/diana/diana/assets/img/icons/payment.webp" alt=""></div>
+        </div>
+      </div> -->
+    <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</body>
+</html>
